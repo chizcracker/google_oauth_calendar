@@ -8,7 +8,7 @@ module GoogleOauthCalendar
 
       def add_files
         # the gems we're using
-        gem "omniauth", ">= 1.0.3"
+        gem "omniauth", "~> 1.2.2"
         gem "omniauth-google-oauth2"
         gem 'google-api-client'
 
